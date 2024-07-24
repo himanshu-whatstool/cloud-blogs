@@ -1,6 +1,7 @@
 import { SearchOutlined } from "@ant-design/icons";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function SpotComp() {
   return (
@@ -54,6 +55,7 @@ function SpotAPI() {
 
   return (
     <main>
+      <Link to={"/otp-box"}><button className="btn btn-sm border border-sm mt-4 me-3 float-end">OTP</button></Link>
       <center>
         <div className="mt-4" style={{ display: 'flex', flexDirection: 'row', border: '1px solid #616874', borderRadius: '8px', width: '40%' }}>
           <span className="p-2"><SearchOutlined className="text-dark" />&nbsp;&nbsp;|</span>

@@ -3,7 +3,6 @@ import OtpBox from '../components/otpBox';
 import { SpotComp } from '../components/spotlight';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-
 function BrowseRouter() {
   return (
     <Router>
@@ -16,3 +15,6 @@ function BrowseRouter() {
 }
 
 export default BrowseRouter
+
+
+
